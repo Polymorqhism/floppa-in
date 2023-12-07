@@ -7,6 +7,11 @@
     src: url(fonts/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: Poppins-EL;
+    src: url(fonts/Poppins-ExtraLight.ttf);
+}
+
 body {
     background-color: black;
     color: wheat;
@@ -14,12 +19,18 @@ body {
     font-family: Poppins-Regular;
 }
 
-#header {
+#floppa-header {
     font-size: 82px;
     font-weight: bold;
     padding-top: 2.5%;
     font-family: Poppins-Bold;
+}
 
+#cursor {
+    font-size: 82px;
+    font-weight: bold;
+    padding-top: 2.5%;
+    font-family: Poppins-EL;
 }
 
 .topbar {
@@ -29,6 +40,21 @@ body {
     justify-content: space-between;
     align-items: center;
     border-radius: 40px;
+}
+
+#cursor {
+    width: 20px;
+    height: 20px;
+    animation: fadeInOut 1.5s infinite;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
 }
 
 
