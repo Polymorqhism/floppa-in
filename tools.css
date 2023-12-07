@@ -59,3 +59,8 @@
     text-shadow: gold 1px 0 10px;
     font-family: Poppins-Black;
 }
+
+#timeleft {
+    color: rgb(255, 0, 255);
+    font-family: Poppins-Black;
+}
