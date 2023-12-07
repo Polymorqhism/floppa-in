@@ -55,8 +55,7 @@
 }
 
 .limited h1 {
-    color: gold;
-    text-shadow: gold 1px 0 10px;
+    color: rgb(255, 217, 0);
     font-family: Poppins-Black;
 }
 

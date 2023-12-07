@@ -77,3 +77,25 @@ marquee {
 #small {
     font-size: 8px;
 }
+
+/* Hide the default scrollbar */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    }
+
+    /* Style for Webkit browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+    width: 12px;
+    }
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2e2e2e; /* Color of the scrollbar thumb */
+    border-radius: 6px;
+    border: 3px solid #000000; /* Border around the thumb */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #000000; /* Color of the scrollbar track */
+    border-radius: 6px;
+}
