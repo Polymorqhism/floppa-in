@@ -67,3 +67,7 @@ marquee {
     color: rgb(56, 56, 56);
     padding-bottom: .2%;
 }
+
+#contact_h {
+    font-size: 42px;
+}
