@@ -71,7 +71,7 @@ marquee {
     padding-left: 3%;
 }
 
-#card {
+.cards {
     width: 300px;
     height: 300px;
     background-color: rgb(182, 139, 0);
@@ -88,7 +88,7 @@ marquee {
     color: rgb(30, 30, 30);
     font-size: 16px;
 }
-#card h2{
+.cards h2{
     color: rgb(0, 0, 0);
     font-family: Poppins-Bold;
 }
