@@ -13,17 +13,15 @@
 }
 
 .cards {
-    width: 300px;
-    height: 300px;
-    background-color: rgb(171, 117, 0);
+    width: 250px;
+    height: 250px;
     color: rgb(30, 30, 30);
     border-radius: 5%;
     border-width: 4px;
     border-style: solid;
-    padding: 1%;
+    padding: .5%;
     border-width: 1%;
-    border-color: rgb(255, 166, 0);
-    box-shadow: #FC0 1px 0 10px;
+    overflow: hidden;
     display: inline-block; 
     margin-right: 10px;
 }
@@ -36,4 +34,28 @@
 .cards h1{
     color: rgb(0, 0, 0);
     font-family: Poppins-Bold;
+}
+
+.apptool {
+    border-color: rgb(150, 101, 16);
+    background-color: rgb(150, 101, 16);
+    box-shadow: rgb(150, 101, 16) 1px 0 10px;
+}
+
+.webtool {
+    border-color: rgb(131, 18, 18);
+    background-color: rgb(131, 18, 18);
+    box-shadow: rgb(255, 0, 0) 1px 0 10px;
+}
+
+.limited {
+    border-color: rgb(255,255,255);
+    background-color: rgb(255,255,255);
+    box-shadow: rgb(255,255,255) 1px 0 10px;
+}
+
+.limited h1 {
+    color: gold;
+    text-shadow: gold 1px 0 10px;
+    font-family: Poppins-Black;
 }

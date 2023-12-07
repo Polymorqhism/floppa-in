@@ -26,6 +26,11 @@
     src: url(fonts/Poppins-ExtraLight.ttf);
 }
 
+@font-face {
+    font-family: Poppins-Black;
+    src: url(fonts/Poppins-Black.ttf);
+}
+
 body {
     background-color: black;
     color: wheat;
@@ -67,4 +72,8 @@ p {
 marquee {
     color: rgb(56, 56, 56);
     padding-bottom: .2%;
+}
+
+#small {
+    font-size: 8px;
 }
