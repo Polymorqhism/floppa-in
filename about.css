@@ -22,50 +22,9 @@ body {
 
 }
 
-.topbar {
-    background-color: #151515;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 40px;
-}
-
-
-.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.menu li {
-    margin-right: 20px;
-}
-
-.menu a {
-    text-decoration: none;
-    color: wheat;
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-.menu a:hover {
-    text-decoration: underline;
-}
-
-a {
-    color: burlywood;
-}
-
 p {
     padding-top: 2%;
     font-size: 14px;
-}
-
-marquee {
-    color: rgb(56, 56, 56);
-    padding-bottom: .2%;
 }
 
 #contact_h {

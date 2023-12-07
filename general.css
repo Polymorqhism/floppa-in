@@ -1,0 +1,65 @@
+.topbar {
+    background-color: #6c4b19;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-EL;
+    src: url(fonts/Poppins-ExtraLight.ttf);
+}
+
+body {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    font-family: Poppins-Regular;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: burlywood;
+}
+
+p {
+    padding-top: 8%;
+    font-size: 24px;
+}
+
+marquee {
+    color: rgb(56, 56, 56);
+    padding-bottom: .2%;
+}
