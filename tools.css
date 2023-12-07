@@ -16,6 +16,7 @@
     width: 250px;
     height: 250px;
     color: rgb(30, 30, 30);
+    font-family: Poppins-Bold;
     border-radius: 5%;
     border-width: 4px;
     border-style: solid;
@@ -43,9 +44,9 @@
 }
 
 .webtool {
-    border-color: rgb(131, 18, 18);
-    background-color: rgb(131, 18, 18);
-    box-shadow: rgb(255, 0, 0) 1px 0 10px;
+    border-color: rgb(131, 18, 101);
+    background-color: rgb(131, 18, 101);
+    box-shadow: rgb(255, 0, 255) 1px 0 10px;
 }
 
 .limited {
