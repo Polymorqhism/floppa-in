@@ -10,4 +10,4 @@ for (let i = 0; i < 6; i++) {
 
 setTimeout(() => {
     document.getElementById('cursor').remove()
-}, 500 * 6)
+}, 500 * 7)
