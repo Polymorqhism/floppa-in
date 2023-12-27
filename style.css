@@ -28,3 +28,13 @@
         opacity: 1;
     }
 }
+
+
+#news {
+    padding-top: 2.5% !important;
+}
+
+#recent-news {
+    padding-top: -2.5% !important;
+    font-size: 18px;
+}
