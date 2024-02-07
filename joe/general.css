@@ -1,0 +1,97 @@
+.topbar {
+    background-color: #6c4b19;
+    padding: 1%;
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    border-radius: 40px;
+}
+
+#header {
+    text-shadow: #FC0 1px 0 10px;
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-EL;
+    src: url(fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url(fonts/Poppins-Black.ttf);
+}
+
+body {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    font-family: Poppins-Regular;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: burlywood;
+}
+
+
+marquee {
+    color: rgb(56, 56, 56);
+    padding-bottom: .2%;
+}
+
+#small {
+    font-size: 8px;
+}
+
+/* Hide the default scrollbar */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    }
+
+    /* Style for Webkit browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+    width: 12px;
+    }
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2e2e2e; /* Color of the scrollbar thumb */
+    border-radius: 6px;
+    border: 3px solid #000000; /* Border around the thumb */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #000000; /* Color of the scrollbar track */
+    border-radius: 6px;
+}

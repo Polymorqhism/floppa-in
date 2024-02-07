@@ -1,0 +1,14 @@
+
+#ip {
+    animation: animColor .5s infinite;
+    padding-top: 50%
+}
+
+@keyframes animColor {
+    0%, 100% {
+        color:red
+    }
+    50% {
+        color: orange;
+    }
+}

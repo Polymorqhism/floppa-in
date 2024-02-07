@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Floppa</title>
+    <meta property="og:title" content="Floppa.in">
+    <meta property="og:description" content="Caracals are the wisest animals.">
+    <meta property="og:image" content="https://floppa.in/logo.png">
+    <meta property="og:url" content="https://floppa.in">
+    <link rel="icon" href="https://floppa.in/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="general.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6392012303679076"
+     crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <marquee behavior="alternate">Pre-release test</marquee>
+    <div class="topbar">
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <span id="small"><li><a href="cardinfo.html">Card Info</a></li></span>
+      </ul>
+  </div>
+  <center>
+  <h1><span id="ip">0.0.0.0</span></h1>
+   </center>
+  </body>
+  <script>
+    fetch('https://ipinfo.io/json')
+    .then(response => {
+        if (!response.ok) {
+        throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        const ipAddress = data.ip;
+        const thing = document.getElementById("ip")
+        thing.innerHTML = ipAddress
+    })
+    .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+    });
+
+
+
+  </script>
+</html>
